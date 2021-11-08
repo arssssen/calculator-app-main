@@ -1,28 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="default">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel='stylesheet' type='text/css' media='screen' href='style/style.css'>
-  <script src='js/script.js'></script>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Calculator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main class="calc">
+    <div class="tag">
+      <h1 class="title">calc</h1>
+        <div class="themes">
+          <p>THEME</p>
+          <div class="theme-number">
+            <div class="theme-numbers">
+              <div id="color-theme1" class="theme-number">1</div>
+              <div id="color-theme2" class="theme-number">2</div>
+              <div id="color-theme3"class="theme-number">3</div>
+            </div>
+          <div class="switch">
+            <button aria-label="default theme" id="default" class="theme" ></button>
+            <button aria-label="light theme"id="light" class="theme" ></button>
+            <button aria-label="dark theme" id="dark" class="theme" ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="display" >
+      0
+    </div>
+    <div class="buttons">
+        
+        <button class="digit" >7</button>
+        <button class="digit" >8</button>
+        <button class="digit" >9</button>
+        <button id = "del" >DEL</button>
+        <button class="digit" >4</button>
+        <button class="digit" >5</button>
+        <button class="digit">6</button>
+        <button class="operator" >+</button>
+        <button class="digit" >1</button>
+        <button class="digit" >2</button>
+        <button class="digit" >3</button>
+        <button class="operator" >-</button>
+        <button class="digit">.</button>
+        <button class="digit" >0</button>
+        <button class="operator"  >/</button>
+        <button class="operator"  >x</button>
+        <button id="reset" >RESET</button>
+        <button id="equal" >=</button>
+      </div>
 
+    </div>
 
+  </main>
+  <script src="js/script.js"></script>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
