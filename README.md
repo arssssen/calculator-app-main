@@ -1,6 +1,6 @@
-# Frontend Mentor - Time tracking dashboard solution
+# Frontend Mentor - Calculator app solution
 
-This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -13,7 +13,6 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -23,8 +22,8 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Switch between viewing Daily, Weekly, and Monthly stats
+- Calculate your numbers
+- Simple Calculator App With 3 Themes
 
 ### Screenshot
 
@@ -32,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/arssssen/Time-tracking-dashboard
-- Live Site URL: https://arssssen.github.io/Time-tracking-dashboard/
+- Solution URL: https://github.com/arssssen/calculator-app-main
+- Live Site URL: https://arssssen.github.io/calculator-app-main/
 
 ## My process
 
@@ -43,13 +42,13 @@ Users should be able to:
 - Added CSS styles
 - Flexbox
 - Use CSS Grid
-- Added basic functionality using Javascript
+- Added some advanced functionality using Javascript
 - Deployed result on GitHub pages
 
 
 ### What I learned
 
-This task helped me to better understand and use CSS Grid. I also used Bootstrap to display the element. And I learned to use my knowledge of Javascript in practice.
+This task helped me to develop our JS skills, and CSS variables.
 
 ### Useful resources
 
@@ -60,10 +59,5 @@ This task helped me to better understand and use CSS Grid. I also used Bootstrap
 
 ## Authors
 
-- GitHub - [Askhatuly Arsen](https://github.com/arssssen) & [Adilkhan Anel](https://github.com/aneloo2)
-- Frontend Mentor - [@arssssen](https://www.frontendmentor.io/profile/arssssen) & [@aneloo2](https://www.frontendmentor.io/profile/aneloo2)
-- Instagram - [@diorsenn](https://www.instagram.com/diorsenn/) & [@aneloo2](https://www.instagram.com/aneloo2/)
-
-## Acknowledgments
- 
-Thank you for our web development teacher for giving us such a task so that we develop our coding skills. 
+- GitHub - [Askhatuly Arsen](https://github.com/arssssen) & [Tulzhanov Nurali](https://github.com/nurks)
+- Frontend Mentor - [@arssssen](https://www.frontendmentor.io/profile/arssssen) & [@nurks](https://www.frontendmentor.io/profile/nurks)
